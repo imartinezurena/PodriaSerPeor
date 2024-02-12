@@ -19,8 +19,6 @@ public class ServidorDirectorio {
 
         try {
             server = new ServerSocket(NUMERO_PUERTO);
-            socket = server.accept();
-
             // creamos el proceso para ejecutar el comando
             Process process = processBuilder.start();
             // Obtener el flujo de entrada del proceso y leerla
@@ -35,6 +33,9 @@ public class ServidorDirectorio {
 
             // Esperar a que el proceso termine y obtener el código de salida
             int exitCode = process.waitFor();
+
+            socket = server.accept();
+
             while (true) {
                 // Espera cliente
                 socket = server.accept();// esta llamada es bloqueante
