@@ -9,7 +9,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Ejer2http {
-    private static final int DEFAULT_PORT = 8765;
+    private static final int DEFAULT_PORT = 8888;
     private static final int RESOURCE_POSITION = 1;
 
     public static void main(String[] args) throws IOException {

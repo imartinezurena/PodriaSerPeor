@@ -1,7 +1,9 @@
+package EjemploExamenhttp;
 
 import java.net.Socket;
 import java.util.ArrayList;
 
+//esta clase está siendo observada por Logger, cunado un numero sea primo lanza el observer
 public class PrimosHTTP {
 
     Socket socket;

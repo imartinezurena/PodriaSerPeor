@@ -1,3 +1,4 @@
+package EjemploExamenhttp;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -13,7 +14,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        try (ServerSocket server = new ServerSocket(Integer.parseInt(args[0]))) {
+        try (ServerSocket server = new ServerSocket(9876)) {
+            // Integer.parseInt(args[0])
 
             Logger logger = new Logger();
 

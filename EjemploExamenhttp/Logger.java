@@ -1,11 +1,12 @@
+package EjemploExamenhttp;
 
 import java.io.FileWriter;
 
-import PrimosHTTP.PrimosListener;
+import EjemploExamenhttp.PrimosHTTP.PrimosListener;
 
 public class Logger implements PrimosListener {
 
-    private static final String RUTA_LOG = "/var/log/primos.txt";
+    private static final String RUTA_LOG = "/home/goku/PodriaSerPeor/EjemploExamenhttp/texto.txt";
 
     @Override
     public void primoEncontrado(int primo) {
