@@ -89,7 +89,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
-                    <mainClass>com.example.Main</mainClass> <!-- aqui pones tu main para que ejecute -->
+                    <mainClass>com.example.PrincipalEmail</mainClass> <!-- aqui pones tu main para que ejecute -->
                 </configuration>
             </plugin>
         </plugins>
